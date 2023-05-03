@@ -2185,6 +2185,7 @@ footer div a p{
         height: 300px;
         border: 2px groove #fff;
         margin: 5px 0px 20px 0px;
+        overflow-y: auto;
     }
     
     .sala1 p{
@@ -2213,6 +2214,7 @@ footer div a p{
         height: 300px;
         border: 2px groove rgb(242, 235, 101);
         margin: 5px 0px 20px 0px;
+        overflow-y: auto;
     }
     
     .sala2 p{
@@ -2240,6 +2242,7 @@ footer div a p{
         height: 300px;
         border: 2px groove #fff;
         margin: 5px 0px 20px 0px;
+        overflow-y: auto;
     
     }
     
