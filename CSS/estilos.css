@@ -46,7 +46,7 @@ ul {
   background-color: rgba(218, 0, 0, 0);
   border: 0;
   width: auto;
-  color: aliceblue;
+  color: #fff;
   padding: 8px;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -66,7 +66,7 @@ ul {
   background-color: rgb(64, 62, 62);
   cursor: pointer;
   border-radius: 2px;
-  color: aliceblue;
+  color: #fff;
 }
 
 #sesion:hover {
@@ -88,21 +88,21 @@ ul {
 }
 
 hr {
-  color: aliceblue;
+  color: #fff;
   margin: 0px;
   opacity: 1;
 }
 
 h1 {
   text-align: center;
-  color: aliceblue;
+  color: #fff;
   margin: 20px 0px 20px;
   font-family: "Rubik", sans-serif;
 }
 
 h2 {
   text-align: center;
-  color: aliceblue;
+  color: #fff;
   font-family: "Rubik", sans-serif;
 }
 
@@ -117,8 +117,7 @@ h2 {
 .gallery_img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 2s;
 }
 
@@ -168,10 +167,35 @@ h2 {
   font-family: "Rubik", sans-serif;
 }
 
+.anuncio1 {
+  background-image: url(../multimedia/24demarzo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.anuncio2 {
+  background-image: url(../multimedia/2deabril.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.anuncio3 {
+  background-image: url(../multimedia/25demayo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.anuncio4 {
+  background-image: url(../multimedia/12dejunio.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .cont_text p {
-  color: aliceblue;
+  color: #fff;
   padding: 5px 0px 0px 10px;
   font-family: "Rubik", sans-serif;
+  margin: 0px;
 }
 
 .cont_text {
@@ -223,11 +247,11 @@ footer div.caja {
   margin-bottom: 20px;
   padding: 5px;
   border-style: ridge;
-  border-color: aliceblue;
+  border-color: #fff;
 }
 
 footer div a {
-  color: aliceblue;
+  color: #fff;
   text-decoration-line: none;
 }
 
@@ -290,15 +314,15 @@ div.login {
 .contenedor form input {
   background: none;
   border: 0;
-  border-bottom: 1px solid aliceblue;
+  border-bottom: 1px solid #fff;
   width: 300px;
   height: 30px;
   outline: none;
-  color: aliceblue;
+  color: #fff;
 }
 
 .contenedor form label {
-  color: aliceblue;
+  color: #fff;
   width: 300px;
   font-size: 16px;
 }
@@ -317,7 +341,7 @@ form input.Enviar {
   width: 70px;
   height: 30px;
   border: 0;
-  color: aliceblue;
+  color: #fff;
   margin-top: 30px;
   border-radius: 2px;
 }
@@ -336,11 +360,11 @@ div.links {
 }
 
 div.links .reset_psw {
-  color: aliceblue;
+  color: #fff;
 }
 
 div.links .create_act {
-  color: aliceblue;
+  color: #fff;
 }
 
 .carousel-inner {
@@ -408,7 +432,7 @@ div.links_register {
 
 .nos p {
   color: #fff;
-  padding: 30px 20px;
+  padding: 10px 20px 0px;
 }
 
 .nos_contenedor {
@@ -422,6 +446,7 @@ div.links_register {
 
 .img_nos {
   margin: 0px 10px 0px 30px;
+  object-fit: cover;
 }
 
 .nos_contenedor2 {
@@ -445,8 +470,7 @@ div.links_register {
 
 .img_nos2 {
   margin: 0px 20px 0px 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 div.tabla {
@@ -745,7 +769,7 @@ footer div a p {
   }
   .img_nos img {
     width: 500px;
-    height: auto;
+    height: 333px;
   }
   .nos_contenedor2 {
     display: flex;
@@ -765,12 +789,11 @@ footer div a p {
   }
   .img_nos2 {
     margin: 0px 10px 0px 10px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .img_nos2 img {
     width: 500px;
-    height: auto;
+    height: 310px;
   }
   div.tabla {
     width: 100%;
@@ -994,10 +1017,15 @@ footer div a p {
   .sala_1 {
     height: 250px;
   }
+  .sala1_img {
+    width: 350px;
+    object-fit: cover;
+  }
   .cont_sala1 {
     height: 246px;
     border: 2px groove #fff;
     margin: 0px 10px 0px 20px;
+    overflow-y: auto;
   }
   .sala1 p {
     color: #fff;
@@ -1014,10 +1042,15 @@ footer div a p {
   .sala_2 {
     height: 250px;
   }
+  .sala2_img {
+    width: 350px;
+    object-fit: cover;
+  }
   .cont_sala2 {
     height: 247px;
     border: 2px groove rgb(242, 235, 101);
     margin: 0px 20px 0px 10px;
+    overflow-y: auto;
   }
   .sala2 p {
     color: #fff;
@@ -1033,10 +1066,15 @@ footer div a p {
   .sala_3 {
     height: 250px;
   }
+  .sala3_img {
+    width: 350px;
+    object-fit: cover;
+  }
   .cont_sala3 {
     height: 245px;
     border: 2px groove #fff;
     margin: 0px 10px 0px 20px;
+    overflow-y: auto;
   }
   .sala3 p {
     color: #fff;
@@ -1304,6 +1342,10 @@ footer div a p {
     height: 250px;
     margin: 0px;
   }
+  .sala1_img {
+    width: 376px;
+    object-fit: cover;
+  }
   .cont_sala1 {
     width: 374px;
     height: 246px;
@@ -1328,6 +1370,10 @@ footer div a p {
     height: 250px;
     margin: 0px;
   }
+  .sala2_img {
+    width: 376px;
+    object-fit: cover;
+  }
   .cont_sala2 {
     width: 374px;
     height: 247px;
@@ -1350,6 +1396,10 @@ footer div a p {
   .sala_3 {
     height: 250px;
     margin: 0px;
+  }
+  .sala3_img {
+    width: 376px;
+    object-fit: cover;
   }
   .cont_sala3 {
     width: 374px;
@@ -1625,6 +1675,10 @@ footer div a p {
     height: 250px;
     margin: 0px;
   }
+  .sala1_img {
+    width: 376px;
+    object-fit: cover;
+  }
   .cont_sala1 {
     width: 374px;
     height: 246px;
@@ -1649,6 +1703,10 @@ footer div a p {
     height: 250px;
     margin: 0px;
   }
+  .sala2_img {
+    width: 376px;
+    object-fit: cover;
+  }
   .cont_sala2 {
     width: 374px;
     height: 247px;
@@ -1671,6 +1729,10 @@ footer div a p {
   .sala_3 {
     height: 250px;
     margin: 0px;
+  }
+  .sala3_img {
+    width: 376px;
+    object-fit: cover;
   }
   .cont_sala3 {
     width: 374px;
@@ -1967,6 +2029,10 @@ footer div a p {
     height: 202px;
     margin: 0px;
   }
+  .sala1_img {
+    width: 302px;
+    object-fit: cover;
+  }
   .cont_sala1 {
     width: 300px;
     height: 300px;
@@ -1992,6 +2058,10 @@ footer div a p {
     height: 202px;
     margin: 0px;
   }
+  .sala2_img {
+    width: 302px;
+    object-fit: cover;
+  }
   .cont_sala2 {
     width: 300px;
     height: 300px;
@@ -2016,6 +2086,10 @@ footer div a p {
     height: 202px;
     margin: 0px;
   }
+  .sala3_img {
+    width: 302px;
+    object-fit: cover;
+  }
   .cont_sala3 {
     width: 300px;
     height: 300px;
@@ -2030,4 +2104,6 @@ footer div a p {
     border: 0px;
     margin: 0px 10px 0px 20px;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */

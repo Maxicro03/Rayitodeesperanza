@@ -1,3 +1,5 @@
+$blanco: #fff;
+
 *{
     margin: 0px;
     padding: 0px;
@@ -48,7 +50,7 @@ ul{
     background-color: rgba(218, 0, 0, 0);
     border: 0;
     width: auto;
-    color: aliceblue;
+    color: $blanco;
     padding: 8px;
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
@@ -69,7 +71,7 @@ ul{
     background-color: rgb(64, 62, 62);
     cursor: pointer;
     border-radius: 2px;
-    color: aliceblue;
+    color: $blanco;
 }
 
 #sesion:hover{
@@ -92,21 +94,21 @@ ul{
 }
 
 hr{
-    color: aliceblue ;
+    color: $blanco ;
     margin: 0px;
     opacity: 1;
 }
 
 h1{
     text-align: center;
-    color: aliceblue;
+    color: $blanco;
     margin: 20px 0px 20px;
     font-family: 'Rubik', sans-serif;
 }
 
 h2{
     text-align: center;
-    color: aliceblue;
+    color: $blanco;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -166,21 +168,45 @@ h2{
     width: 200px;
     background-color: rgb(13, 13, 13);
     margin: 0px 0px 0px 20px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid $blanco;
+    color: $blanco;
     font-family: 'Rubik', sans-serif;
 }
 
+.anuncio1{
+    background-image: url(../multimedia/24demarzo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.anuncio2{
+    background-image: url(../multimedia/2deabril.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.anuncio3{
+    background-image: url(../multimedia/25demayo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.anuncio4{
+    background-image: url(../multimedia/12dejunio.png);
+    background-size: cover;
+    background-position: center;
+}
 .cont_text p{
-    color: aliceblue;
+    color: $blanco;
     padding: 5px 0px 0px 10px;
     font-family: 'Rubik', sans-serif;
+    margin: 0px;
 }
 
 .cont_text{
     margin: 0px 20px 0px 0px;
     background-color: rgb(69, 68, 68);
-    border: 2px solid #fff;
+    border: 2px solid $blanco;
     overflow: hidden;
 }
 
@@ -226,16 +252,16 @@ footer div.caja{
     margin-bottom: 20px;
     padding: 5px;
     border-style: ridge;
-    border-color: aliceblue;
+    border-color: $blanco;
 }
 
 footer div a{
-    color: aliceblue;
+    color: $blanco;
     text-decoration-line: none;
 }
 
 footer div a:hover{
-    color: #fff;
+    color: $blanco;
 }
 
 footer p{
@@ -258,7 +284,7 @@ footer p{
 }
 
 .subir:hover{
-    box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px $blanco;
     color: rgb(139, 142, 144);
 }
 
@@ -294,16 +320,16 @@ div.login{
 .contenedor form input{
     background: none;
     border: 0;
-    border-bottom: 1px solid aliceblue;
+    border-bottom: 1px solid $blanco;
     width: 300px;
     height: 30px;
     outline: none;
-    color: aliceblue;
+    color: $blanco;
 }
 
 
 .contenedor form label{
-    color: aliceblue;
+    color: $blanco;
     width: 300px;
     font-size: 16px;
 }
@@ -323,7 +349,7 @@ form input.Enviar{
     width: 70px;
     height: 30px;
     border: 0;
-    color: aliceblue;
+    color: $blanco;
     margin-top: 30px;
     border-radius: 2px;
 }
@@ -342,11 +368,11 @@ div.links{
 }
 
 div.links .reset_psw{
-    color: aliceblue;
+    color: $blanco;
 }
 
 div.links .create_act{
-    color: aliceblue;
+    color: $blanco;
 }
 
 .carousel-inner{
@@ -401,7 +427,7 @@ div.links_register{
 }
 
 .register .contenedor .links_register .reset_psw{
-    color: #fff;
+    color: $blanco;
 }
 
 .titulo_nos{
@@ -414,8 +440,8 @@ div.links_register{
 }
 
 .nos p{
-    color: #fff;
-    padding: 30px 20px;
+    color: $blanco;
+    padding: 10px 20px 0px;
 }
 
 .nos_contenedor{
@@ -429,7 +455,7 @@ div.links_register{
 
 .img_nos{
     margin: 0px 10px 0px 30px;
-
+    object-fit: cover;
 }
 
 .nos_contenedor2{
@@ -440,14 +466,14 @@ div.links_register{
 .tex_nos{
     margin: 0px 20px 0px 0px;
     height: 462px;
-    border: 2px groove #fff;
+    border: 2px groove $blanco;
     overflow-y: auto;
 }
 
 .tex_nos2{
     margin: 0px 0px 0px 30px;
     height: 462px;
-    border: 2px groove #fff;
+    border: 2px groove $blanco;
     overflow-y: auto;
 }
 
@@ -462,7 +488,7 @@ div.tabla{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: $blanco;
     margin: 0px 0px 20px;
 }
 
@@ -482,7 +508,7 @@ table.alimentos tr td{
     border: 2px solid;
     text-align: center;
     padding: 20px;
-    color: #fff;
+    color: $blanco;
 }
 
 .salas{
@@ -507,10 +533,10 @@ table.alimentos tr td{
 }
 
 .sala1 p{
-    color: #fff;
+    color: $blanco;
     padding: 50px 40px;
     height: 200px;
-    border: 2px groove #fff;
+    border: 2px groove $blanco;
     margin: 0px 10px 0px 20px ;
 }
 
@@ -531,7 +557,7 @@ table.alimentos tr td{
 }
 
 .sala2 p{
-    color: #fff;
+    color: $blanco;
     padding: 50px 40px;
     height: 200px;
     border: 2px groove rgb(242, 235, 101);
@@ -555,10 +581,10 @@ table.alimentos tr td{
 }
 
 .sala3 p{
-    color: #fff;
+    color: $blanco;
     padding: 50px 40px;
     height: 200px;
-    border: 2px groove #fff;
+    border: 2px groove $blanco;
     margin: 0px 10px 0px 20px ;
 }
 
@@ -589,7 +615,7 @@ h2.titulo_maps{
     display: flex;
     justify-content: center;
     align-items:center;
-    border: 2px solid #fff;
+    border: 2px solid $blanco;
     background-color: black;
     margin: 0px 0px 0px;
 }
@@ -600,7 +626,7 @@ h2.titulo_maps{
     align-items: center;
     width: 500px;
     height: 30px;
-    color: #fff;
+    color: $blanco;
     margin: 20px 20px 0px;
     font-family: 'Rubik', sans-serif;
 }
@@ -624,7 +650,7 @@ h2.cel_mail{
 }
 
 .cont_final{
-    border: 2px solid #fff;
+    border: 2px solid $blanco;
     background-color: rgb(199, 193, 83);
 }
 
@@ -635,7 +661,7 @@ h2.cel_mail{
     align-items: center;
     width: 620px;
     height: 235px;
-    color: #fff;
+    color: $blanco;
 }
 
 .email_cont{
@@ -645,7 +671,7 @@ h2.cel_mail{
     align-items: center;
     width: 620px;
     height: 235px;
-    color: #fff;
+    color: $blanco;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -680,7 +706,7 @@ h2.cel_mail{
 div.calle_link{
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: $blanco;
     margin: 0px 0px 0px 0px;
 }
 
@@ -689,19 +715,19 @@ div.calle_link p{
 }
 
 div.telefono_numero{
-    color: #fff;
+    color: $blanco;
 }
 
 div.email_contacto{
-    color: #fff;
+    color: $blanco;
 }
 
 div p{
-    color: #fff;
+    color: $blanco;
 }
 
 footer div a p{
-    color: #fff;
+    color: $blanco;
     text-decoration: underline;
 }
 
@@ -770,7 +796,7 @@ footer div a p{
 
     .img_nos img{
         width: 500px;
-        height: auto;
+        height: 333px;
     }
        
     .nos_contenedor2{
@@ -798,7 +824,7 @@ footer div a p{
     } 
     .img_nos2 img{
         width: 500px;
-        height: auto;
+        height: 310px;
     }
     div.tabla{
         width: 100%;
@@ -1061,16 +1087,23 @@ footer div a p{
         display: flex;
         justify-content: center;
         margin: 0px 0px 30px;
+        
     }
     
     .sala_1{
         height: 250px;
+    }
+
+    .sala1_img{
+        width: 350px;
+        object-fit: cover;
     }
     
     .cont_sala1{
         height: 246px;
         border: 2px groove #fff;
         margin: 0px 10px 0px 20px;
+        overflow-y: auto;
     }
     
     .sala1 p{
@@ -1090,11 +1123,17 @@ footer div a p{
     .sala_2{
         height: 250px;
     }
+
+    .sala2_img{
+        width: 350px;
+        object-fit: cover;
+    }
     
     .cont_sala2{
         height: 247px;
         border: 2px groove rgb(242, 235, 101);
         margin: 0px 20px 0px 10px;
+        overflow-y: auto;
     }
     
     .sala2 p{
@@ -1114,10 +1153,16 @@ footer div a p{
         height: 250px;
     }
     
+    .sala3_img{
+        width: 350px;
+        object-fit: cover;
+    }
+    
     .cont_sala3{
         height: 245px;
         border: 2px groove #fff;
         margin: 0px 10px 0px 20px;
+        overflow-y: auto;
     
     }
     
@@ -1423,6 +1468,11 @@ footer div a p{
         height: 250px;
         margin: 0px;
     }
+
+    .sala1_img{
+        width: 376px;
+        object-fit: cover;
+    }
     
     .cont_sala1{
         width: 374px;
@@ -1451,6 +1501,11 @@ footer div a p{
         height: 250px;
         margin: 0px;
     }
+
+    .sala2_img{
+        width: 376px;
+        object-fit: cover;
+    }
     
     .cont_sala2{
         width: 374px;
@@ -1477,6 +1532,11 @@ footer div a p{
     .sala_3{
         height: 250px;
         margin: 0px;
+    }
+
+    .sala3_img{
+        width: 376px;
+        object-fit: cover;
     }
     
     .cont_sala3{
@@ -1790,6 +1850,11 @@ footer div a p{
         height: 250px;
         margin: 0px;
     }
+
+    .sala1_img{
+        width: 376px;
+        object-fit: cover;
+    }
     
     .cont_sala1{
         width: 374px;
@@ -1818,6 +1883,11 @@ footer div a p{
         height: 250px;
         margin: 0px;
     }
+
+    .sala2_img{
+        width: 376px;
+        object-fit: cover;
+    }
     
     .cont_sala2{
         width: 374px;
@@ -1844,6 +1914,11 @@ footer div a p{
     .sala_3{
         height: 250px;
         margin: 0px;
+    }
+
+    .sala3_img{
+        width: 376px;
+        object-fit: cover;
     }
     
     .cont_sala3{
@@ -2184,6 +2259,11 @@ footer div a p{
         height: 202px;
         margin: 0px;
     }
+
+    .sala1_img{
+        width: 302px;
+        object-fit: cover;
+    }
     
     .cont_sala1{
         width: 300px;
@@ -2213,6 +2293,11 @@ footer div a p{
         height: 202px;
         margin: 0px;
     }
+
+    .sala2_img{
+        width: 302px;
+        object-fit: cover;
+    }
     
     .cont_sala2{
         width: 300px;
@@ -2240,6 +2325,11 @@ footer div a p{
     .sala_3{
         height: 202px;
         margin: 0px;
+    }
+
+    .sala3_img{
+        width: 302px;
+        object-fit: cover;
     }
     
     .cont_sala3{
